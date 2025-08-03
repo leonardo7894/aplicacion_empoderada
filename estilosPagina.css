@@ -1,0 +1,105 @@
+.cuadraditos{
+  background:pink;
+  border: 5px solid black;
+  border-radius: 100px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.imagenes{
+  width: 50%;
+  cursor: pointer;
+}
+.centrar{
+  transform: translateX(40%);
+}
+.inicio{
+  display:block;
+  text-decoration: none;
+  color:black;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 200px;
+  background: rgb(219, 118, 145); 
+  justify-content: center;
+  width: 180px;
+  cursor: pointer;
+}
+.letras{
+  font-family: serif;
+  font-size: 50px;
+}
+.boton{
+  padding: 20px;
+  border-radius: 100px;
+  text-align: center;
+  /* width: 400px; */
+  cursor: pointer;
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(219, 118, 145);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) /*300px 300px 300px*/;
+  gap: 10px;
+  grid-auto-rows: auto;
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* body {
+  writing-mode: horizontal-tb;
+}
+
+.box {
+  inline-size: 150px;/* como se extiende de arriba hacia abajo 
+  block-size: 150px;/* como se extiende de izquierda a derecha el contenido
+  padding-right: 800px;
+  padding-left: 20px;
+  border-block-start: 50px solid black;/* arriba 
+  border-block-end: 50px solid hotpink;/* abajo 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(25, 136, 201);
+  color: #fff;
+  font-size: 42px;
+}
+
+.box2 {
+    background:ye url("logo de emoderada.png");
+    inline-size: 150px;
+    block-size: 150px;
+    padding-right: 800px; 
+    padding-left: 20px;
+    border-block-start: 50px solid black;
+    border-block-end: 50px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 42px;
+} */
+
+
+/*rgb(230, 236, 170); fondo
+rgb(219, 118, 145) hada
+rgb(0,0,0) negro */
+
